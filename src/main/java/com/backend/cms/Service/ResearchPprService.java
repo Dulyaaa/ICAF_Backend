@@ -29,8 +29,8 @@ public class ResearchPprService {
     private final Path fileStorageLocation;
     @Autowired
     public ResearchPprRepository research;
-    @Autowired
-    public EmailService emservice;
+//    @Autowired
+//    public EmailService emservice;
 
     public ResearchPpr saveResearch(ResearchPpr researchPpr)
     {
