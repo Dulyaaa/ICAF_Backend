@@ -28,7 +28,7 @@ import java.util.List;
 public class ResearchPprService {
     private final Path fileStorageLocation;
     @Autowired
-    public ResearchPprRepository research;
+     private ResearchPprRepository research;
 //    @Autowired
 //    public EmailService emservice;
 
