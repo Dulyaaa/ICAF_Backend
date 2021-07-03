@@ -13,7 +13,7 @@ import java.util.List;
 
 public class workshopDController {
     @Autowired
-    WorkshopService workshopService;
+    private WorkshopService workshopService;
 
     // Get All workshops
     @GetMapping("/")
