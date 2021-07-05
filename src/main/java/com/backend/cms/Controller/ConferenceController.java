@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:1234")
+@CrossOrigin("*")
 @RequestMapping("/conference")
 public class ConferenceController {
 
